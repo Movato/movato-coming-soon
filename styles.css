@@ -39,14 +39,6 @@ main {
   align-items: center;
   margin-top: 4.3rem;
 }
-/* Header Logo */
-.header-logo {
-  background-image: url("images/logo.svg");
-  background-size: 90%;
-  background-repeat: no-repeat;
-  width: 4.5rem;
-  height: 4.5rem;
-}
 /* Title Section */
 .title-section {
   margin-top: -0.7rem;
@@ -69,80 +61,12 @@ main {
 .title-info {
   color: var(--very-dark-blue);
 }
-
-/* Input Section */
-.input-section {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
-  width: 44%;
-  margin: 0 auto;
-  margin-top: 1.2rem;
-}
-.input-block {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  grid-column: span 2;
-  position: relative;
-}
-
-.input-section input {
-  position: relative;
-  padding: 0.9rem;
-  border-radius: 35px;
-  border-color: var(--pale-blue);
-  opacity: 0.7;
-  border-width: 1px;
-  border-style: solid;
-}
-
-.input-section input::placeholder {
-  font-size: 0.9rem;
-  color: var(--gray);
+.logo {
+  font-size: 2.3rem;
+  letter-spacing: 1px;
   font-weight: 300;
-  opacity: 0.8;
-  margin-left: 1rem;
-}
-
-.input-section input[type="email"] {
-  font-size: 0.8rem;
-  padding-left: 1rem;
-  color: var(--gray);
-}
-
-.input-section input:focus {
-  outline: none;
-  border-color: var(--light-red);
-  border-width: 1px;
-  border-style: solid;
-}
-
-.email-input-message {
-  display: none;
-  position: absolute;
-  color: var(--light-red);
-  top: 3.5rem;
-  left: 0.5rem;
-  font-size: 0.9rem;
-  text-align: left;
-  width: 100%;
-}
-
-.input-section button {
-  grid-column: span 1;
-  border-radius: 35px;
-  color: var(--white);
-  background-color: var(--blue);
-  border-color: transparent;
-  font-weight: 600;
-  font-size: 0.8rem;
-  cursor: pointer;
-  box-shadow: var(--box-shadow);
-  -webkit-box-shadow: var(--box-shadow);
-  -moz-box-shadow: var(--box-shadow);
-  transition: all ease-in-out 0.3s;
+  color: initial;
+  margin-bottom: 1rem;
 }
 
 /* Statistics IMG */
